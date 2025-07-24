@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121214;
+    padding: 0 190px;
+    height: 100px;
+    gap:120px;
+}
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+/* nav */
+/* main */
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 49px 100px 80px 100px;
+    padding:98px 90px 46px;
+    background-image: url("./img/immmg.jpg");
+    background-repeat: no-repeat;
+    height: 631px;
+
+    h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-style: Black;
+   font-size: 51px;
+   line-height: 63px;
+   letter-spacing: 0%;
+   text-transform: uppercase;
+   color:#171819;
+   max-width: 571px;
+    }
+    p {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 19px;
+   line-height: 32px;
+   letter-spacing: 0%;
+   max-width: 535px;
+   padding-top: 19px;
+   padding-bottom: 19px;
+    }
+   button {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 800;
+   font-style: Ultrabold;
+   font-size: 12px;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-transform: uppercase;
+   color:#FFFFFF;
+   padding: 23px 28px 23px 28px;
+   background-color: #121214;
+   border-radius: 5px;
+    }
+}
+
+/* main */
+
+/* section1 */
+.section1 {
+    max-width: 1500px;
+    padding-left:280px;
+    padding-right: 280px;
+    padding-bottom: 80px;
+}
+.section1header {
+    display: flex;
+  
+}
+
+.zoom,.Court,.nike {
+    max-width: 1230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:#000000;
+}
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color:#3C3C3C;
+}
+}
+.nuqta {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+.section4 {
+    display:flex;
+    max-width: 1541px;
+    margin: 80px 190px 100px;
+    background: linear-gradient(#0D99F8,#21A0F8,#54B5FF,#0DBBF8,#0DDBF8);
+    padding-left: 90px;
+    height: 631px;
+    gap:72px;
+    h5 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 51px;
+        line-height: 63px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color:#FFFFFF;
+        padding-top: 98px;
+        padding-bottom: 19px;
+    }
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color:#FFFFFF;
+        padding-bottom: 24px;
+    }
+    .Esli {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 41px;
+
+    }
+    .Esli1  {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 600;
+                font-style: Semibold;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0%;
+                max-width: 258px; 
+            }
+        }
+        button {
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 800;
+            font-style: Ultrabold;
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            color:#FFFFFF;
+            padding: 23px 27px;
+            background-color: #121214;
+            border-radius:5px;
+        }
+    };
+
+    /* section5 */
+    .section5 {
+        display:flex;
+        background-color: #D9D9D9;
+        padding: 100px 280px 120px;
+        gap:69px;
+        
+    }
+    .internet {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 280px 120px;
+        p {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        color:#303030;
+        max-width: 876px;
+
+        }
+    }
+    .bez {
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        background-color: #FFFFFF;
+    }
+
+        
+
+    /* section6 */
+    .section6 {
+        margin-left: 280px;
+        margin-right: 280px;
+        max-width: 1361px;
+    }
+    .mano {
+        display: flex;
+        justify-content: space-between;
+    }
+    .blog {
+        max-width: 1361px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap:10px;
+    }
+    .blog1 h3 {
+        size:23px;
+        font-family: 'Times New Roman', Times, serif;
+        color:#121214;
+        font-weight: 700;
+        padding-top: 13px;
+        max-width: 433px;
+    } 
+    .blog1 p {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        size: 15px;
+        line-height: 25px;
+        color: #303030;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        max-width: 433px;
+    } 
+    .blog2 {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        h4 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        font-style: Ultrabold;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color:#000000;
+        }
+        h6 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 11px;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: right;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color:#8C8F96
+        }
+    }
+        
+
+
+
