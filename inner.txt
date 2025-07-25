@@ -1,0 +1,15 @@
+object methodi
+1.capitalize => har bir suzni bosh harfini katta qilib yozib beradi
+2.Object qiymatlarini 2 xil usulda olish mumkin 1) obj.key 2)obj[""]
+3.JSda object ma'lumotlarni key: value ko'rinishida saqlanadigan ma'lumot turi hisoblanadi.
+4.Object ichida functionlar methodlar deb ataladi.
+5.object values — bu method objectimizni ichidagi faqat valuelarini olib beradi.
+6fromEntries — array malumotni objectga o’girib beradi/
+7) entries — bu objectni array kurinishda qaytaradi.
+9. assign — bu 2ta objectni birbiriga qushadi boshqacharoq qilib aytsak birinchi objectni ikkinchi object bilan to’g’irlasak bo’ladi
+10)person.city = "Toshkent"; => objectga qiymat qushish;
+11. delete person.age; => Objectdan qiymat uchirish
+12 Object.keys(obj) => Barcha kalitlarni massiv qilib qaytaradi
+13) Object.values(obj) =>  Barcha qiymatlarni massivga o‘giradi
+14) let copy2 = { ...user };=> spread operatori objectlarni yig'ib beradi
+
